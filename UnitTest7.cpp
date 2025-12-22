@@ -42,5 +42,8 @@ namespace UnitTest7
 		TEST_METHOD(TestDiscriminant) {
 			Assert::AreEqual(14, Discriminant(4, 6, -4));
 		}
+		TEST_METHOD(TestCubeVolume2) {
+			Assert::AreEqual(27, Volumes().cubeVolume(3));
+		}
 	};
 }
